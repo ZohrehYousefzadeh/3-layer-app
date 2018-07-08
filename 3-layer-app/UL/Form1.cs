@@ -32,6 +32,7 @@ namespace _3_layer_app
 
         private void button1_Click(object sender, EventArgs e)
         {
+            int x;
             BL.BL b = new BL.BL();
             b.Project_Num = textBox1.Text;
             b.Auto_ID = textBox2.Text;
